@@ -1,9 +1,21 @@
-#pasar un diccionario a la funcion y escribir los valores
+'''
+def miFuncionEnPython(nombre,apellido):
+    print(f'Saludos {nombre} {apellido} desde mi funcion')
+miFuncionEnPython('Fede','Bazan')
 
-def listarTerminos(**terminos):
-    for llave,valor in terminos.items():
-        print(f'{llave}:{valor}')
+def suma (x,y):
+    return  x+y
+print(f'La suma de 2 y 3 es: {suma(2,3)}')
 
-listarTerminos(IDE='Integrated Develompent Enviroment',PK='Primary Key')
-listarTerminos(DBMS = 'Database Management System')
+def sumar (a=0,b=0) -> int:
+    return a+b
+print(f'la suma de 2 y 8 es: {sumar(2,8)}')
+print(f'la suma de los parametros default: {sumar()}')
+'''
+def listaDeNombres (*nombres):
+    for nombre in nombres:
+        print(nombre)
 
+listaDeNombres('Mario','Karla','Satto','Vicky')
+listaDeNombres('Jorge','Cintia','Andrea')
+print('codecaps')
