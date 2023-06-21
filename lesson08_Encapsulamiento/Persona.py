@@ -28,6 +28,9 @@ class Persona:
     def edad(self,edad):
         self.__edad=edad
 
+    def __del__(self):
+        print (f'Se elimina {self.__apellido} {self.__nombre} {self.edad}')
+
     def saludar(self):
         print (f'Hola {self.apellido} {self.__nombre}, tienes {self.edad} años')
 
