@@ -15,7 +15,7 @@ lista=list(tuplaDeNumero)
 print(lista)
 print(sorted(lista, reverse=True))
 
-#---exercise 3--- Crea un diccionario con 5 elementos, donde las llaves sean nombres y los valores sean edades.
+#---exercise  3--- Crea un diccionario con 5 elementos, donde las llaves sean nombres y los valores sean edades.
 
 registro={
     'Nombre1':10,
